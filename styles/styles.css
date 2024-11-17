@@ -253,6 +253,10 @@ body {
   left: 8px;
 }
 
+.added{
+  color: #615048;
+}
+
 .notification-badge {
   background-color: #7db54f;
   border-radius: 10px;
