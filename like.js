@@ -1,8 +1,8 @@
-let heart=document.querySelector('.menu-link__heart');
+let heart=document.querySelector('.menu-link--heart');
 
 let likeNumber=document.querySelector('.notification-badge');
 heart.onclick=function (evt) {
-  evt.prevetnDefault;
+  evt.preventDefault();
 if(heart.classList.contains('added')){
   likeNumber.textContent--;
 }
